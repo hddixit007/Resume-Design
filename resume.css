@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/*Applying style to particular section is done through the identifier.*/
+.header{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+body{
+    font-family: "Calibri";
+    max-width:50%;
+    margin:auto;
+    color:#333;
+}
+.face{
+    width:120px;
+    height:120px;
+    object-fit:cover;
+    /*Make 50% of height and width of the image to make it circular*/
+    border-radius:50%;
+    margin-top:20px;
+}
+.title{
+    flex : 1;
+    margin-left:30px;
+}
+.name{
+    color:grey;
+}
+.coral{
+    color:coral;
+}
+.qualification{
+    letter-spacing: 1px;
+}
+.hrline{
+    margin:10px;
+    border:1px solid coral;
+}
+.table-head{
+    min-width:300px;
+    font-size: 22px;
+    color:coral;
+}
+.margin-fix{
+    margin-top:15px;
+}
